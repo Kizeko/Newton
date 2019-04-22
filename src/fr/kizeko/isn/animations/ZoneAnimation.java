@@ -11,7 +11,6 @@ public class ZoneAnimation extends Animation {
 
     @Override
     public void process(GameObject gameObject) {
-        Main.getInstance().rect(gameObject.getPosition().x - gameObject.getWidth() / 2.0f,
-                gameObject.getPosition().y - gameObject.getHeight() / 2.0f, gameObject.getWidth(), gameObject.getHeight());
+        Main.getInstance().rect(gameObject.getPosition().x, gameObject.getPosition().y, gameObject.getWidth(), gameObject.getHeight());
     }
 }

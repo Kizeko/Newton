@@ -2,45 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e12f0d-4ef4-4f42-beae-7b808e8980a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ISN.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ISN/META-INF/ISN.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/animations/Animation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/animations/ProjectileAnimation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/animations/ZoneAnimation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/assets/backgrounds/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/main/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/GameObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/Projectile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/Zone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/hitboxes/Hitbox.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/hitboxes/ProjectileHitbox.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/hitboxes/ZoneHitbox.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/Constants.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/UI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/World.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/animations/Animation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/animations/ProjectileAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/animations/ZoneAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/assets/backgrounds/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/GameObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Projectile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Zone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/Hitbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ProjectileHitbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ZoneHitbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/Functions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/World.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/tasks/GameTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/animations/ProjectileAnimation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/animations/ProjectileAnimation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/animations/ZoneAnimation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/animations/ZoneAnimation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/GameObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/Projectile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/Projectile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/Zone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/Zone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/hitboxes/Hitbox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/hitboxes/Hitbox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/hitboxes/ProjectileHitbox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/hitboxes/ProjectileHitbox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/hitboxes/ZoneHitbox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/hitboxes/ZoneHitbox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/UI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/World.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/animations/ProjectileAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/animations/ProjectileAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/animations/ZoneAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/animations/ZoneAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Projectile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Projectile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Zone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Zone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/Hitbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/Hitbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ProjectileHitbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ProjectileHitbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ZoneHitbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ZoneHitbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/World.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,57 +44,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/World.java">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/Zone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+            <state relative-caret-position="248">
+              <caret line="8" column="92" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3376#3377#0" expanded="true" />
-                <element signature="e#3438#3439#0" expanded="true" />
-                <element signature="e#3475#3476#0" expanded="true" />
-                <element signature="e#3508#3509#0" expanded="true" />
-                <element signature="e#3563#3564#0" expanded="true" />
-                <element signature="e#3597#3598#0" expanded="true" />
-                <element signature="e#3640#3641#0" expanded="true" />
-                <element signature="e#3668#3669#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/Functions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/UI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="868">
-              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#1474#1475#0" expanded="true" />
-                <element signature="e#1512#1513#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,64 +58,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/Projectile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="496">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1848#1849#0" expanded="true" />
-                <element signature="e#1873#1874#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="46" column="76" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1368#1369#0" expanded="true" />
-                <element signature="e#1399#1400#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/animations/ProjectileAnimation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/GameObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#1113#1114#0" expanded="true" />
-                <element signature="e#1142#1143#0" expanded="true" />
-                <element signature="e#1167#1168#0" expanded="true" />
-                <element signature="e#1203#1204#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-                <element signature="e#1270#1271#0" expanded="true" />
-                <element signature="e#1301#1302#0" expanded="true" />
-                <element signature="e#1341#1342#0" expanded="true" />
-                <element signature="e#1376#1377#0" expanded="true" />
-                <element signature="e#1597#1598#0" expanded="true" />
-                <element signature="e#1629#1630#0" expanded="true" />
-                <element signature="e#1665#1666#0" expanded="true" />
-                <element signature="e#1693#1694#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,8 +70,61 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/Hitbox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2200">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="713">
+              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1195#1196#0" expanded="true" />
+                <element signature="e#1244#1245#0" expanded="true" />
+                <element signature="e#1284#1285#0" expanded="true" />
+                <element signature="e#1315#1316#0" expanded="true" />
+                <element signature="e#1343#1344#0" expanded="true" />
+                <element signature="e#1384#1385#0" expanded="true" />
+                <element signature="e#1418#1419#0" expanded="true" />
+                <element signature="e#1450#1451#0" expanded="true" />
+                <element signature="e#1479#1480#0" expanded="true" />
+                <element signature="e#1522#1523#0" expanded="true" />
+                <element signature="e#1558#1559#0" expanded="true" />
+                <element signature="e#1595#1596#0" expanded="true" />
+                <element signature="e#1628#1629#0" expanded="true" />
+                <element signature="e#1681#1682#0" expanded="true" />
+                <element signature="e#1725#1726#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#1721#1722#0" expanded="true" />
+                <element signature="e#1781#1782#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/tasks/GameTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -191,24 +133,72 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/animations/ZoneAnimation.java">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/Functions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
+            <state relative-caret-position="-31">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1058#1059#0" expanded="true" />
+                <element signature="e#1104#1105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/World.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="e#1101#1102#0" expanded="true" />
+                <element signature="e#1252#1253#0" expanded="true" />
+                <element signature="e#1308#1309#0" expanded="true" />
+                <element signature="e#2514#2515#0" expanded="true" />
+                <element signature="e#2576#2577#0" expanded="true" />
+                <element signature="e#2613#2614#0" expanded="true" />
+                <element signature="e#2646#2647#0" expanded="true" />
+                <element signature="e#2701#2702#0" expanded="true" />
+                <element signature="e#2735#2736#0" expanded="true" />
+                <element signature="e#2475#2476#0" expanded="true" />
+                <element signature="e#2502#2503#0" expanded="true" />
+                <element signature="e#2547#2548#0" expanded="true" />
+                <element signature="e#2580#2581#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ZoneHitbox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ProjectileHitbox.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+            <state relative-caret-position="557">
+              <caret line="71" column="64" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3014#3015#0" expanded="true" />
+                <element signature="e#3077#3078#0" expanded="true" />
+                <element signature="e#3136#3137#0" expanded="true" />
+                <element signature="e#3211#3212#0" expanded="true" />
+                <element signature="e#3272#3273#0" expanded="true" />
+                <element signature="e#3321#3322#0" expanded="true" />
+                <element signature="e#3400#3401#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -226,6 +216,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>mult</find>
+      <find>100.0</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -244,21 +235,23 @@
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/zones/Zone.java" />
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/utils/GameObject.java" />
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/BulletHitbox.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ZoneHitbox.java" />
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/sprites/ProjectileSprite.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/animations/ZoneAnimation.java" />
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/animations/Animation.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/GameObject.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Zone.java" />
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/animations/LauncherAnimation.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/utils/Constants.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/main/Main.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Projectile.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/animations/ProjectileAnimation.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/animations/ZoneAnimation.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ZoneHitbox.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Zone.java" />
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/Hitbox.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/utils/Functions.java" />
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ProjectileHitbox.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/utils/UI.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/animations/ProjectileAnimation.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/tasks/GameTask.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Projectile.java" />
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/utils/World.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/utils/Constants.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/utils/UI.java" />
       </list>
     </option>
   </component>
@@ -268,13 +261,14 @@
     <option name="width" value="1449" />
     <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,25 +336,34 @@
               <item name="ISN" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="isn" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ISN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ISN" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="isn" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555850393819" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555933765044" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
@@ -430,14 +433,19 @@
       <workItem from="1555785884397" duration="1955000" />
       <workItem from="1555792143065" duration="10278000" />
       <workItem from="1555840782778" duration="8741000" />
+      <workItem from="1555851931802" duration="9884000" />
+      <workItem from="1555883202433" duration="4874000" />
+      <workItem from="1555927133825" duration="6033000" />
+      <workItem from="1555933979341" duration="8672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52451000" />
+    <option name="totallyTimeSpent" value="81914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1369936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -448,7 +456,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32887402" />
+      <window_info active="true" anchor="bottom" x="-320" y="-1417" width="2560" height="1377" id="Run" maximized="true" order="2" type="WINDOWED" visible="true" weight="0.32887402" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -484,40 +492,10 @@
     <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ZombieHitbox.java" />
     <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/BulletHitbox.java" />
     <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/sprites/ProjectileSprite.java" />
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/Zone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../processing-3.5.3/core/library/core.jar!/processing/core/PGraphics.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="3045" selection-start-line="3045" selection-end-line="3045" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/animations/Animation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1159#1160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -532,81 +510,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/animations/LauncherAnimation.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/animations/LauncherAnimation.java" />
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/animations/Animation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ZoneHitbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="46" column="76" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1368#1369#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/Projectile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1848#1849#0" expanded="true" />
-            <element signature="e#1873#1874#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/GameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1203#1204#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1270#1271#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
-            <element signature="e#1629#1630#0" expanded="true" />
-            <element signature="e#1665#1666#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="248">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/animations/ZoneAnimation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="155">
+          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -615,8 +530,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/animations/ProjectileAnimation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="186">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -625,44 +540,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ProjectileHitbox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        <state relative-caret-position="419">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/UI.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        <state relative-caret-position="217">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#1474#1475#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/Projectile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#1721#1722#0" expanded="true" />
+            <element signature="e#1781#1782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ZoneHitbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/Hitbox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="713">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1558#1559#0" expanded="true" />
+            <element signature="e#1595#1596#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/Zone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="92" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/tasks/GameTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -671,26 +648,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/World.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+        <state relative-caret-position="319">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3376#3377#0" expanded="true" />
-            <element signature="e#3438#3439#0" expanded="true" />
-            <element signature="e#3475#3476#0" expanded="true" />
-            <element signature="e#3508#3509#0" expanded="true" />
-            <element signature="e#3563#3564#0" expanded="true" />
-            <element signature="e#3597#3598#0" expanded="true" />
-            <element signature="e#3640#3641#0" expanded="true" />
-            <element signature="e#3668#3669#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#2514#2515#0" expanded="true" />
+            <element signature="e#2576#2577#0" expanded="true" />
+            <element signature="e#2613#2614#0" expanded="true" />
+            <element signature="e#2646#2647#0" expanded="true" />
+            <element signature="e#2701#2702#0" expanded="true" />
+            <element signature="e#2735#2736#0" expanded="true" />
+            <element signature="e#2475#2476#0" expanded="true" />
+            <element signature="e#2502#2503#0" expanded="true" />
+            <element signature="e#2547#2548#0" expanded="true" />
+            <element signature="e#2580#2581#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/Functions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="-31">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="71" column="64" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3014#3015#0" expanded="true" />
+            <element signature="e#3077#3078#0" expanded="true" />
+            <element signature="e#3136#3137#0" expanded="true" />
+            <element signature="e#3211#3212#0" expanded="true" />
+            <element signature="e#3272#3273#0" expanded="true" />
+            <element signature="e#3321#3322#0" expanded="true" />
+            <element signature="e#3400#3401#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,9 +1,9 @@
 package fr.kizeko.isn.utils;
 
 import fr.kizeko.isn.main.Main;
+import fr.kizeko.isn.tasks.GameTask;
 
-import static java.lang.Math.*;
-import static fr.kizeko.isn.utils.Constants.*;
+import static fr.kizeko.isn.utils.Functions.*;
 
 public class UI {
 
@@ -12,35 +12,66 @@ public class UI {
     private final float radius;
     private final int n;
     private final float ellipsesSpacing;
+    private World world;
 
-    public UI(float v0, float angle) {
-        this.v0 = v0;
-        this.angle = angle;
+    public UI(World world) {
+        this.v0 = Main.getV0();
+        this.angle = getShootAngle();
         this.radius = 2.5f;
         this.n = 15;
         this.ellipsesSpacing = 5.0f;
+        this.world = world;
     }
 
-    public void update(float v0, float angle) {
-        this.updateSpecs(v0, angle);
+    public void update() {
+        this.updateSpecs();
         this.drawLauncher();
+        this.drawText();
+        this.drawGraduation();
     }
 
-    private void updateSpecs(float v0, float angle) {
-        this.v0 = v0;
-        this.angle = angle;
+    private void updateSpecs() {
+        this.v0 = Main.getV0();
+        this.angle = getShootAngle();
+    }
+
+    private void drawText() {
+        Main.getInstance().text("Time : " + (Main.getInstance().millis() / 1000.0f), convertXToOrigin(15.0f), convertYToOrigin(25.0f));
+        Main.getInstance().text("Zone touched : " + (GameTask.getCount() - 1), convertXToOrigin(15.0f), convertYToOrigin(55.0f));
+        Main.getInstance().text("V0 : " + this.v0, convertXToOrigin(1175.0f), convertYToOrigin(25.0f));
+        Main.getInstance().text("Angle : " + -Math.round(Math.toDegrees(getShootAngle())) + "°", convertXToOrigin(1175.0f),
+                convertYToOrigin(55.0f));
     }
 
     private void drawLauncher() {
         float x = 0.0f;
         for (int i = 0; i < n; i++) {
             x += this.ellipsesSpacing;
-            Main.getInstance().ellipse(x, y(x), radius * 2.0f, radius * 2.0f);
+            Main.getInstance().ellipse(x, y(x, v0, angle), radius * 2.0f, radius * 2.0f);
         }
     }
 
-    private float y(float x) {
-        return (float) (((g / (2 * pow(v0, 2) * pow(cos(angle), 2))) * pow(x, 2)) + tan(angle) * x);
+    private void drawGraduation() {
+        for (int i = 0; i < (Main.getInstance().width - Constants.START_POSITION_X) / 10.0f; i++) {
+            if (i * 10.0f % 100.0f == 0.0f) {
+                Main.getInstance().line(i * 10.0f, convertYToOrigin(Constants.FLOOR_POSITION_Y + 60.0f), i * 10.0f,
+                        convertYToOrigin(Constants.FLOOR_POSITION_Y + 40.0f));
+                if (i != 0)
+                    Main.getInstance().text(Math.round(i * 10.0f), i * 10.0f - 14.0f, convertYToOrigin(Constants.FLOOR_POSITION_Y + 80.0f));
+            } else {
+                Main.getInstance().line(i * 10.0f, convertYToOrigin(Constants.FLOOR_POSITION_Y + 60.0f), i * 10.0f,
+                        convertYToOrigin(Constants.FLOOR_POSITION_Y + 50.0f));
+            }
+        }
+
+        for (int i = 0; i < (Main.getInstance().height + Constants.START_POSITION_Y) / 10.0f; i++) {
+            if (i * 10.0f % 100.0f == 0.0f) {
+                Main.getInstance().line(convertXToOrigin(0.0f), -i * 10.0f, convertXToOrigin(20.0f), -i * 10.0f);
+                if (i != 0) Main.getInstance().text(Math.round(i * 10.0f), convertXToOrigin(25.0f), -i * 10.0f + 4.0f);
+            } else {
+                Main.getInstance().line(convertXToOrigin(0.0f), -i * 10.0f, convertXToOrigin(10.0f), -i * 10.0f);
+            }
+        }
     }
 
     public float getV0() {

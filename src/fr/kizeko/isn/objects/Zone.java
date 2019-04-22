@@ -11,7 +11,6 @@ public class Zone extends GameObject {
 
     @Override
     protected void updateSpecs() {
-
     }
 
 }

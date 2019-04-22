@@ -1,18 +1,22 @@
 package fr.kizeko.isn.main;
 
 import fr.kizeko.isn.objects.Projectile;
+import fr.kizeko.isn.tasks.GameTask;
 import fr.kizeko.isn.utils.World;
 import processing.core.PApplet;
 import processing.core.PVector;
 import processing.event.KeyEvent;
+import processing.event.MouseEvent;
 
 import static fr.kizeko.isn.utils.Constants.START_POSITION_X;
 import static fr.kizeko.isn.utils.Constants.START_POSITION_Y;
+import static fr.kizeko.isn.utils.Functions.getShootAngle;
 
 public class Main extends PApplet {
 
     private static Main instance;
     private World world;
+    private static float v0 = 100.0f;
 
     public static void main(String[] args) {
         PApplet.main("fr.kizeko.isn.main.Main", args);
@@ -21,6 +25,7 @@ public class Main extends PApplet {
     @Override
     public void setup() {
         instance = this;
+        this.textSize(15);
         this.world = new World();
     }
 
@@ -42,12 +47,21 @@ public class Main extends PApplet {
     }
 
     @Override
-    public void keyTyped(KeyEvent event) {
-        System.out.println("ONE : ");
-        World.getProjectiles().add(new Projectile("OMEGALUL", 0.0f, 0.0f, 50.0f, 10.0f, 10.0f, World.getShootAngle()));
+    public void keyPressed() {
+        if (keyCode == UP) {
+            v0 += 1.0f;
+        } else if (keyCode == DOWN) {
+            v0 -= 1.0f;
+        } else if (keyCode == ENTER) {
+            this.world.addProjectile(String.valueOf(GameTask.getCount() - 1), v0, getShootAngle());
+        }
     }
 
     public static Main getInstance() {
         return instance;
+    }
+
+    public static float getV0() {
+        return v0;
     }
 }

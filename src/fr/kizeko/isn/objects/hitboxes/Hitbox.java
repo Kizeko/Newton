@@ -2,6 +2,7 @@ package fr.kizeko.isn.objects.hitboxes;
 
 import fr.kizeko.isn.main.Main;
 import fr.kizeko.isn.objects.GameObject;
+import fr.kizeko.isn.utils.Constants;
 import fr.kizeko.isn.utils.World;
 import processing.core.PVector;
 
@@ -33,45 +34,7 @@ public abstract class Hitbox {
         this.position.y = objectPosition.y + this.marginTop;
     }
 
-    protected void showHitbox() {
-        if (this.displaying) {
-            Main.getInstance().fill(0, 255, 0, 50);
-            Main.getInstance().rect(this.position.x, this.position.y, this.width, this.height);
-            Main.getInstance().fill(255);
-        }
-    }
-
-    protected int isOutOfScreen() {
-        if (this.position.x < this.width / 2.0f) {
-            return 0;
-        } else if (this.position.x > Main.getInstance().width) {
-            return 1;
-        } else if (this.position.y < this.height / 2.0f) {
-            return 2;
-        } else if (this.position.y > Main.getInstance().height) {
-            return 3;
-        } else {
-            return 4;
-        }
-    }
-
-    protected boolean stopMovementAfterCollidingWithWalls(GameObject gameObject) {
-        Integer index = this.isOutOfScreen();
-        if (index != 4) {
-            if (index == 0) {
-                //Touché a gauche --> décale à droite
-            } else if (index == 1) {
-                //Touché à droite --> décale à gauche
-            } else if (index == 2) {
-                //Touché en haut --> décale en bas
-            } else {
-                //Touché en bas --> décale en bas
-            }
-            return true;
-        } else {
-            return false;
-        }
-    }
+    protected abstract void showHitbox();
 
     public PVector getPosition() {
         return position;

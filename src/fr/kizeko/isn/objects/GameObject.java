@@ -29,7 +29,9 @@ public abstract class GameObject {
 
     public void update() {
         this.updateSpecs();
+        //this.hitbox.stopMovementAfterCollidingWithWalls(this);
         this.draw();
+        this.hitbox.update(this.position);
     }
 
     protected abstract void updateSpecs();
