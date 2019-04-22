@@ -18,15 +18,17 @@ public class World {
     private static List<Projectile> projectiles;
     private static Zone zone;
     private PImage background;
+    private GameTask gameTask;
     private UI ui;
 
     public World() {
         this.background = Main.getInstance().loadImage("C:/Users/Kizeko/Desktop/ISN/src/fr/kizeko/isn/assets/backgrounds/background.png");
         this.background.resize(Main.getInstance().width, Main.getInstance().height);
         projectiles = new ArrayList<>();
-        this.ui = new UI(this);
+        this.ui = new UI();
+        this.gameTask = new GameTask(this);
         Timer timer = new Timer();
-        timer.schedule(new GameTask(this), 0, 1000);
+        timer.schedule(gameTask, 0, 1000);
     }
 
     public void addProjectile(String id, float v0, float angle) {
@@ -51,9 +53,10 @@ public class World {
                 int result = ((ProjectileHitbox) projectiles.get(i).getHitbox()).hasCollided(zone);
                 if (result != 2) {
                     projectiles.get(i).disableProjectile();
+                    this.ui.setTravelTimeOfLastBall(projectiles.get(i).getT());
+                    this.ui.setDistanceOfLastBall(projectiles.get(i).getPosition().x);
                     if (result == 0) {
-                        //Change zone
-                        GameTask.changeZone();
+                        this.gameTask.changeZone(projectiles.get(i));
                     }
                 }
             }
@@ -90,5 +93,9 @@ public class World {
 
     public static void setZone(Zone zone) {
         World.zone = zone;
+    }
+
+    public UI getUi() {
+        return ui;
     }
 }

@@ -1,12 +1,8 @@
 package fr.kizeko.isn.main;
 
-import fr.kizeko.isn.objects.Projectile;
 import fr.kizeko.isn.tasks.GameTask;
 import fr.kizeko.isn.utils.World;
 import processing.core.PApplet;
-import processing.core.PVector;
-import processing.event.KeyEvent;
-import processing.event.MouseEvent;
 
 import static fr.kizeko.isn.utils.Constants.START_POSITION_X;
 import static fr.kizeko.isn.utils.Constants.START_POSITION_Y;
@@ -51,7 +47,7 @@ public class Main extends PApplet {
         if (keyCode == UP) {
             v0 += 1.0f;
         } else if (keyCode == DOWN) {
-            v0 -= 1.0f;
+            if (v0 > 0.0f) v0 -= 1.0f;
         } else if (keyCode == ENTER) {
             this.world.addProjectile(String.valueOf(GameTask.getCount() - 1), v0, getShootAngle());
         }

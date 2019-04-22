@@ -5,6 +5,7 @@ import static fr.kizeko.isn.main.Main.*;
 import static fr.kizeko.isn.utils.Constants.*;
 import static fr.kizeko.isn.utils.Functions.*;
 
+import fr.kizeko.isn.objects.Projectile;
 import fr.kizeko.isn.utils.World;
 
 import java.util.TimerTask;
@@ -22,14 +23,14 @@ public class GameTask extends TimerTask {
     @Override
     public void run() {
         if (World.getZone() == null) {
-            this.count++;
+            count++;
             this.world.createNewZone(String.valueOf(count), getInstance().random(convertXToOrigin(FLOOR_MIN_POSITION_X),
                     convertXToOrigin(FLOOR_MAX_POSITION_X)), convertYToOrigin(FLOOR_POSITION_Y), getInstance().random(FLOOR_MIN_WIDTH,
                     FLOOR_MAX_WIDTH), getInstance().random(FLOOR_MIN_HEIGHT, FLOOR_MAX_HEIGHT));
         }
     }
 
-    public static void changeZone() {
+    public void changeZone(Projectile projectile) {
         World.getProjectiles().clear();
         World.setZone(null);
     }

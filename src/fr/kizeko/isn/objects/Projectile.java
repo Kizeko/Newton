@@ -14,6 +14,7 @@ public class Projectile extends GameObject {
     private final long t0;
     private final float v0;
     private float angle;
+    private float t;
     private boolean active;
     private float alpha;
 
@@ -22,6 +23,7 @@ public class Projectile extends GameObject {
                 new ProjectileAnimation());
         this.v0 = v0;
         this.t0 = Main.getInstance().millis();
+        this.t = 0.0f;
         this.angle = angle;
         this.active = true;
         this.alpha = 255.0f;
@@ -30,7 +32,7 @@ public class Projectile extends GameObject {
     @Override
     protected void updateSpecs() {
         if (this.active) {
-            float t = (Main.getInstance().millis() - t0) / 1000.0f;
+            t = (Main.getInstance().millis() - t0) / 1000.0f;
             this.acceleration.x = 0.0f;
             this.acceleration.y = g;
             this.velocity.x = (float) (v0 * cos(angle));
@@ -63,5 +65,9 @@ public class Projectile extends GameObject {
 
     public long getT0() {
         return t0;
+    }
+
+    public float getT() {
+        return t;
     }
 }
