@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/utils/World.java" line="26" mnemonic="2" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e9e12f0d-4ef4-4f42-beae-7b808e8980a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/animations/TrailAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/Projectile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/Trail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/Zone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/utils/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/GameObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/Projectile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/Projectile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/Zone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/objects/Zone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/tasks/GameTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/tasks/GameTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/Functions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/Functions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/UI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Projectile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Projectile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/tasks/GameTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/tasks/GameTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ISN/fr/kizeko/isn/utils/World.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/animations/Animation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/animations/Animation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/animations/ProjectileAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/animations/ProjectileAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/animations/ZoneAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/animations/ZoneAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/assets/backgrounds/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/assets/backgrounds/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Projectile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Zone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/Hitbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/hitboxes/HitBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ProjectileHitbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/hitboxes/ProjectileHitBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ZoneHitbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/hitboxes/ZoneHitBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/tasks/GameTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/tasks/GameTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/utils/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/utils/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/isn/utils/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/utils/World.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,10 +51,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/Zone.java">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="8" column="92" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="92" />
+            <state relative-caret-position="388">
+              <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/animations/ZoneAnimation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,24 +75,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/Projectile.java">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/GameObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="403">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1846#1847#0" expanded="true" />
-                <element signature="e#1870#1871#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/Hitbox.java">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/hitboxes/ZoneHitBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="217">
+              <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="7" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/hitboxes/HitBox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-32">
+              <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1164#1165#0" expanded="true" />
@@ -78,119 +128,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/main/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/Projectile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="216">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#1593#1594#0" expanded="true" />
-                <element signature="e#1653#1654#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/tasks/GameTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2581#2582#0" expanded="true" />
+                <element signature="e#2609#2610#0" expanded="true" />
+                <element signature="e#2637#2638#0" expanded="true" />
+                <element signature="e#2662#2663#0" expanded="true" />
+                <element signature="e#2695#2696#0" expanded="true" />
+                <element signature="e#2724#2725#0" expanded="true" />
+                <element signature="e#2755#2756#0" expanded="true" />
+                <element signature="e#2783#2784#0" expanded="true" />
+                <element signature="e#2810#2811#0" expanded="true" />
+                <element signature="e#2835#2836#0" expanded="true" />
+                <element signature="e#2862#2863#0" expanded="true" />
+                <element signature="e#2886#2887#0" expanded="true" />
+                <element signature="e#2924#2925#0" expanded="true" />
+                <element signature="e#2953#2954#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/Functions.java">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/animations/TrailAnimation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="248">
+              <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1058#1059#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/World.java">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/animations/Animation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1203">
-              <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+            <state relative-caret-position="309">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
-                <element signature="e#1252#1253#0" expanded="true" />
-                <element signature="e#1308#1309#0" expanded="true" />
-                <element signature="e#2514#2515#0" expanded="true" />
-                <element signature="e#2576#2577#0" expanded="true" />
-                <element signature="e#2613#2614#0" expanded="true" />
-                <element signature="e#2646#2647#0" expanded="true" />
-                <element signature="e#2701#2702#0" expanded="true" />
-                <element signature="e#2735#2736#0" expanded="true" />
-                <element signature="e#2475#2476#0" expanded="true" />
-                <element signature="e#2502#2503#0" expanded="true" />
-                <element signature="e#2547#2548#0" expanded="true" />
-                <element signature="e#2580#2581#0" expanded="true" />
-                <element signature="e#2567#2568#0" expanded="true" />
-                <element signature="e#2592#2593#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ZoneHitbox.java">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/animations/ProjectileAnimation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="216">
+              <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="7" />
               <folding>
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/UI.java">
+        <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/hitboxes/ProjectileHitBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+            <state relative-caret-position="248">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4145#4146#0" expanded="true" />
-                <element signature="e#4208#4209#0" expanded="true" />
-                <element signature="e#4267#4268#0" expanded="true" />
-                <element signature="e#4342#4343#0" expanded="true" />
-                <element signature="e#4403#4404#0" expanded="true" />
-                <element signature="e#4452#4453#0" expanded="true" />
-                <element signature="e#4531#4532#0" expanded="true" />
-                <element signature="e#4021#4022#0" expanded="true" />
-                <element signature="e#4064#4065#0" expanded="true" />
-                <element signature="e#4135#4136#0" expanded="true" />
-                <element signature="e#4199#4200#0" expanded="true" />
-                <element signature="e#4371#4372#0" expanded="true" />
-                <element signature="e#4412#4413#0" expanded="true" />
-                <element signature="e#4479#4480#0" expanded="true" />
-                <element signature="e#4539#4540#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -228,28 +235,35 @@
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/utils/GameObject.java" />
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/BulletHitbox.java" />
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/sprites/ProjectileSprite.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/animations/Animation.java" />
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/animations/LauncherAnimation.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/animations/ZoneAnimation.java" />
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ZoneHitbox.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Zone.java" />
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/Hitbox.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/GameObject.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/utils/Functions.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ProjectileHitbox.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/animations/ProjectileAnimation.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Projectile.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/tasks/GameTask.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/utils/World.java" />
-        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/utils/UI.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/utils/Trail.java" />
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/utils/World.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/utils/Functions.java" />
         <option value="$PROJECT_DIR$/src/fr/kizeko/isn/utils/Constants.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/utils/UI.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/tasks/GameTask.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Zone.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Trail.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ProjectileHitbox.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/Projectile.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ZoneHitBox.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ProjectileHitBox.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/HitBox.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/animations/Animation.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/animations/ProjectileAnimation.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/animations/TrailAnimation.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/isn/animations/ZoneAnimation.java" />
+        <option value="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/animations/ZoneAnimation.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="146" />
-    <option name="y" value="-16" />
+    <option name="x" value="258" />
+    <option name="y" value="-18" />
     <option name="width" value="1449" />
     <option name="height" value="1040" />
   </component>
@@ -261,6 +275,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,27 +292,27 @@
               <item name="ISN" type="b2602c69:ProjectViewProjectNode" />
               <item name="ISN" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="isn" type="462c0819:PsiDirectoryNode" />
+              <item name="newtonlaws" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ISN" type="b2602c69:ProjectViewProjectNode" />
               <item name="ISN" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="isn" type="462c0819:PsiDirectoryNode" />
+              <item name="newtonlaws" type="462c0819:PsiDirectoryNode" />
               <item name="animations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ISN" type="b2602c69:ProjectViewProjectNode" />
               <item name="ISN" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="isn" type="462c0819:PsiDirectoryNode" />
+              <item name="newtonlaws" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ISN" type="b2602c69:ProjectViewProjectNode" />
               <item name="ISN" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="isn" type="462c0819:PsiDirectoryNode" />
+              <item name="newtonlaws" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="backgrounds" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -305,21 +320,21 @@
               <item name="ISN" type="b2602c69:ProjectViewProjectNode" />
               <item name="ISN" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="isn" type="462c0819:PsiDirectoryNode" />
+              <item name="newtonlaws" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ISN" type="b2602c69:ProjectViewProjectNode" />
               <item name="ISN" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="isn" type="462c0819:PsiDirectoryNode" />
+              <item name="newtonlaws" type="462c0819:PsiDirectoryNode" />
               <item name="objects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ISN" type="b2602c69:ProjectViewProjectNode" />
               <item name="ISN" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="isn" type="462c0819:PsiDirectoryNode" />
+              <item name="newtonlaws" type="462c0819:PsiDirectoryNode" />
               <item name="objects" type="462c0819:PsiDirectoryNode" />
               <item name="hitboxes" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -327,28 +342,27 @@
               <item name="ISN" type="b2602c69:ProjectViewProjectNode" />
               <item name="ISN" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="isn" type="462c0819:PsiDirectoryNode" />
+              <item name="newtonlaws" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ISN" type="b2602c69:ProjectViewProjectNode" />
               <item name="ISN" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="isn" type="462c0819:PsiDirectoryNode" />
+              <item name="newtonlaws" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555948779581" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556106592727" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -356,7 +370,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -385,14 +399,61 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.kizeko.isn.main.Main" />
-      <module name="ISN" />
+      <option name="MAIN_CLASS_NAME" value="fr.kizeko.newtonlaws.main.Main" />
+      <module name="NewtonLaws" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.kizeko.isn.main.*" />
+          <option name="PATTERN" value="fr.kizeko.newtonlaws.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="NewtonLaws" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="NewtonLaws" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -428,18 +489,20 @@
       <workItem from="1555851931802" duration="9884000" />
       <workItem from="1555883202433" duration="4874000" />
       <workItem from="1555927133825" duration="6033000" />
-      <workItem from="1555933979341" duration="13509000" />
+      <workItem from="1555933979341" duration="20954000" />
+      <workItem from="1556051541701" duration="3693000" />
+      <workItem from="1556097036772" duration="7825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86751000" />
+    <option name="totallyTimeSpent" value="105714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14925373" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1130064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -447,8 +510,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" x="22" y="-894" width="1876" height="295" id="Run" maximized="true" order="2" visible="true" weight="0.32887402" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info anchor="bottom" x="22" y="-894" width="1876" height="295" id="Run" maximized="true" order="2" weight="0.32887402" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -503,57 +566,129 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/animations/LauncherAnimation.java" />
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/animations/Animation.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/utils/Functions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/utils/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="111" column="45" lean-forward="true" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4787#4788#0" expanded="true" />
+            <element signature="e#4828#4829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/utils/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="111" column="32" lean-forward="true" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2557#2558#0" expanded="true" />
+            <element signature="e#2584#2585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/tasks/GameTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/Zone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/Trail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1209">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/Projectile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2581#2582#0" expanded="true" />
+            <element signature="e#2609#2610#0" expanded="true" />
+            <element signature="e#2637#2638#0" expanded="true" />
+            <element signature="e#2662#2663#0" expanded="true" />
+            <element signature="e#2695#2696#0" expanded="true" />
+            <element signature="e#2724#2725#0" expanded="true" />
+            <element signature="e#2755#2756#0" expanded="true" />
+            <element signature="e#2783#2784#0" expanded="true" />
+            <element signature="e#2810#2811#0" expanded="true" />
+            <element signature="e#2835#2836#0" expanded="true" />
+            <element signature="e#2862#2863#0" expanded="true" />
+            <element signature="e#2886#2887#0" expanded="true" />
+            <element signature="e#2924#2925#0" expanded="true" />
+            <element signature="e#2953#2954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/hitboxes/ProjectileHitBox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/animations/ZoneAnimation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/animations/ProjectileAnimation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ProjectileHitbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/GameObject.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/hitboxes/ZoneHitBox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/ZoneHitbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="7" />
           <folding>
             <element signature="e#204#205#0" expanded="true" />
             <element signature="e#270#271#0" expanded="true" />
@@ -561,10 +696,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/hitboxes/Hitbox.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/hitboxes/HitBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="-32">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1164#1165#0" expanded="true" />
@@ -587,119 +722,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/Zone.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/animations/Animation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/animations/ProjectileAnimation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/animations/TrailAnimation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="8" column="92" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="92" />
+          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/Functions.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/animations/ZoneAnimation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/objects/Projectile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1846#1847#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/tasks/GameTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+        <state relative-caret-position="341">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1203">
-          <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#2514#2515#0" expanded="true" />
-            <element signature="e#2576#2577#0" expanded="true" />
-            <element signature="e#2613#2614#0" expanded="true" />
-            <element signature="e#2646#2647#0" expanded="true" />
-            <element signature="e#2701#2702#0" expanded="true" />
-            <element signature="e#2735#2736#0" expanded="true" />
-            <element signature="e#2475#2476#0" expanded="true" />
-            <element signature="e#2502#2503#0" expanded="true" />
-            <element signature="e#2547#2548#0" expanded="true" />
-            <element signature="e#2580#2581#0" expanded="true" />
-            <element signature="e#2567#2568#0" expanded="true" />
-            <element signature="e#2592#2593#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/UI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4145#4146#0" expanded="true" />
-            <element signature="e#4208#4209#0" expanded="true" />
-            <element signature="e#4267#4268#0" expanded="true" />
-            <element signature="e#4342#4343#0" expanded="true" />
-            <element signature="e#4403#4404#0" expanded="true" />
-            <element signature="e#4452#4453#0" expanded="true" />
-            <element signature="e#4531#4532#0" expanded="true" />
-            <element signature="e#4021#4022#0" expanded="true" />
-            <element signature="e#4064#4065#0" expanded="true" />
-            <element signature="e#4135#4136#0" expanded="true" />
-            <element signature="e#4199#4200#0" expanded="true" />
-            <element signature="e#4371#4372#0" expanded="true" />
-            <element signature="e#4412#4413#0" expanded="true" />
-            <element signature="e#4479#4480#0" expanded="true" />
-            <element signature="e#4539#4540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#1593#1594#0" expanded="true" />
-            <element signature="e#1653#1654#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kizeko/isn/utils/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

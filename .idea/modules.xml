@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ISN.iml" filepath="$PROJECT_DIR$/ISN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewtonLaws.iml" filepath="$PROJECT_DIR$/NewtonLaws.iml" />
     </modules>
   </component>
 </project>
