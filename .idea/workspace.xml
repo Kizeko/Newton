@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9e12f0d-4ef4-4f42-beae-7b808e8980a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/Projectile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/Projectile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/utils/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/utils/Functions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/utils/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/utils/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/utils/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kizeko/newtonlaws/utils/World.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,18 +67,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/Projectile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+            <state relative-caret-position="154">
+              <caret line="64" column="27" lean-forward="true" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3530#3531#0" expanded="true" />
-                <element signature="e#3583#3584#0" expanded="true" />
-                <element signature="e#3645#3646#0" expanded="true" />
-                <element signature="e#3704#3705#0" expanded="true" />
-                <element signature="e#3756#3757#0" expanded="true" />
-                <element signature="e#3807#3808#0" expanded="true" />
-                <element signature="e#3864#3865#0" expanded="true" />
-                <element signature="e#3931#3932#0" expanded="true" />
+                <element signature="e#3507#3508#0" expanded="true" />
+                <element signature="e#3560#3561#0" expanded="true" />
+                <element signature="e#3622#3623#0" expanded="true" />
+                <element signature="e#3681#3682#0" expanded="true" />
+                <element signature="e#3733#3734#0" expanded="true" />
+                <element signature="e#3784#3785#0" expanded="true" />
+                <element signature="e#3841#3842#0" expanded="true" />
+                <element signature="e#3908#3909#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -407,18 +402,18 @@
       <workItem from="1555933979341" duration="20954000" />
       <workItem from="1556051541701" duration="3693000" />
       <workItem from="1556097036772" duration="8072000" />
-      <workItem from="1556113159528" duration="5377000" />
+      <workItem from="1556113159528" duration="5421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111338000" />
+    <option name="totallyTimeSpent" value="111382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1130064" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1130064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -427,7 +422,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" x="22" y="-894" width="1876" height="295" id="Run" maximized="true" order="2" visible="true" weight="0.32887402" />
+      <window_info anchor="bottom" x="22" y="-894" width="1876" height="295" id="Run" maximized="true" order="2" weight="0.32887402" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -652,18 +647,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/kizeko/newtonlaws/objects/Projectile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        <state relative-caret-position="154">
+          <caret line="64" column="27" lean-forward="true" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3530#3531#0" expanded="true" />
-            <element signature="e#3583#3584#0" expanded="true" />
-            <element signature="e#3645#3646#0" expanded="true" />
-            <element signature="e#3704#3705#0" expanded="true" />
-            <element signature="e#3756#3757#0" expanded="true" />
-            <element signature="e#3807#3808#0" expanded="true" />
-            <element signature="e#3864#3865#0" expanded="true" />
-            <element signature="e#3931#3932#0" expanded="true" />
+            <element signature="e#3507#3508#0" expanded="true" />
+            <element signature="e#3560#3561#0" expanded="true" />
+            <element signature="e#3622#3623#0" expanded="true" />
+            <element signature="e#3681#3682#0" expanded="true" />
+            <element signature="e#3733#3734#0" expanded="true" />
+            <element signature="e#3784#3785#0" expanded="true" />
+            <element signature="e#3841#3842#0" expanded="true" />
+            <element signature="e#3908#3909#0" expanded="true" />
           </folding>
         </state>
       </provider>

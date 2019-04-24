@@ -66,7 +66,6 @@ public class Projectile extends GameObject {
         this.alpha = 255.0f;
         this.yMax = Functions.yMax(v0, angle);
         this.trails = new ArrayList<>();
-        this.done = 4;
     }
 
     @Override
