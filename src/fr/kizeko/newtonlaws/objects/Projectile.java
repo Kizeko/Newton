@@ -3,6 +3,7 @@ package fr.kizeko.newtonlaws.objects;
 import fr.kizeko.newtonlaws.animations.ProjectileAnimation;
 import fr.kizeko.newtonlaws.main.Main;
 import fr.kizeko.newtonlaws.objects.hitboxes.ProjectileHitBox;
+import fr.kizeko.newtonlaws.utils.Functions;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,12 +40,17 @@ public class Projectile extends GameObject {
      */
     private float alpha;
     /**
+     * Altitude maximum du projectile (yMax)
+     */
+    private float yMax;
+    /**
      * Liste des différents Trail de ce projectile
      */
     private List<Trail> trails;
 
     /**
      * Constructeur de la classe Projectile
+     *
      * @param id    Id
      * @param v0    Vitesse initiale
      * @param angle Angle
@@ -58,7 +64,9 @@ public class Projectile extends GameObject {
         this.angle = angle;
         this.active = true;
         this.alpha = 255.0f;
+        this.yMax = Functions.yMax(v0, angle);
         this.trails = new ArrayList<>();
+        this.done = 4;
     }
 
     @Override
@@ -130,6 +138,10 @@ public class Projectile extends GameObject {
 
     public float getT() {
         return t;
+    }
+
+    public float getYMax() {
+        return yMax;
     }
 
     public List<Trail> getTrails() {

@@ -3,6 +3,8 @@ package fr.kizeko.newtonlaws.utils;
 import fr.kizeko.newtonlaws.main.Main;
 import fr.kizeko.newtonlaws.tasks.GameTask;
 
+import java.text.DecimalFormat;
+
 import static fr.kizeko.newtonlaws.utils.Functions.*;
 
 public class UI {
@@ -30,11 +32,19 @@ public class UI {
     /**
      * La durée de vol du projectile
      */
-    private float travelTimeOfLastBall;
+    private float travelTimeOfLastProjectile;
     /**
-     * La distance que le projectile a parcouru
+     * La distance que le dernier projectile a parcouru
      */
-    private float distanceOfLastBall;
+    private float distanceOfLastProjectile;
+    /**
+     * Angle du dernier projectile
+     */
+    private float angleOfLastProjectile;
+    /**
+     * y Max du dernier projectile
+     */
+    private float yMaxOfLastProjectile;
 
     /**
      * Constructeur de la classe UI
@@ -45,8 +55,10 @@ public class UI {
         this.radius = 2.5f;
         this.n = 15;
         this.ellipsesSpacing = 5.0f;
-        this.travelTimeOfLastBall = 0.0f;
-        this.distanceOfLastBall = 0.0f;
+        this.travelTimeOfLastProjectile = 0.0f;
+        this.distanceOfLastProjectile = 0.0f;
+        this.angleOfLastProjectile = 0.0f;
+        this.yMaxOfLastProjectile = 0.0f;
     }
 
     /**
@@ -68,12 +80,16 @@ public class UI {
      * Affiche les différentes informations
      */
     private void drawText() {
+        DecimalFormat format = new DecimalFormat("#.##");
+
         String timeText = "Time : " + Math.round(Main.getInstance().millis() / 1000.0f) + " s";
         String zoneText = "Zone touched : " + (GameTask.getCount() - 1);
         String vText = "V0 : " + this.v0 + " m/s";
-        String angleText = "Angle : " + -Math.round(Math.toDegrees(getShootAngle())) + "°";
-        String distanceText = "Distance : " + this.distanceOfLastBall + " m";
-        String timeBallText = "Time traveled : " + this.travelTimeOfLastBall + " s";
+        String angleText = "Angle : " + format.format(-Math.toDegrees(getShootAngle())) + "°";
+        String distanceText = "Distance : " + format.format(this.distanceOfLastProjectile) + " m";
+        String timeBallText = "Time traveled : " + format.format(this.travelTimeOfLastProjectile) + " s";
+        String lastAngleText = "Angle : " + format.format(-Math.toDegrees(this.angleOfLastProjectile)) + "°";
+        String yMaxText = "yMax : " + format.format(this.yMaxOfLastProjectile) + " m";
 
         Main.getInstance().text(timeText, convertXToOrigin(Main.getInstance().width / 2.0f - Main.getInstance().textWidth(timeText) / 2.0f),
                 convertYToOrigin(25.0f));
@@ -91,6 +107,12 @@ public class UI {
 
         Main.getInstance().text(timeBallText, convertXToOrigin(Main.getInstance().width / 2.0f - Main.getInstance().textWidth(timeBallText) / 2.0f),
                 convertYToOrigin(660.0f));
+
+        Main.getInstance().text(lastAngleText, convertXToOrigin(Main.getInstance().width / 2.0f - Main.getInstance().textWidth(lastAngleText) / 2.0f),
+                convertYToOrigin(680.0f));
+
+        Main.getInstance().text(yMaxText, convertXToOrigin(Main.getInstance().width / 2.0f - Main.getInstance().textWidth(yMaxText) / 2.0f),
+                convertYToOrigin(700.0f));
     }
 
     /**
@@ -164,19 +186,27 @@ public class UI {
         return ellipsesSpacing;
     }
 
-    public float getTravelTimeOfLastBall() {
-        return travelTimeOfLastBall;
+    public float getTravelTimeOfLastProjectile() {
+        return travelTimeOfLastProjectile;
     }
 
-    public void setTravelTimeOfLastBall(float travelTimeOfLastBall) {
-        this.travelTimeOfLastBall = travelTimeOfLastBall;
+    public float getDistanceOfLastProjectile() {
+        return distanceOfLastProjectile;
     }
 
-    public float getDistanceOfLastBall() {
-        return distanceOfLastBall;
+    public void setAngleOfLastProjectile(float angleOfLastProjectile) {
+        this.angleOfLastProjectile = angleOfLastProjectile;
     }
 
-    public void setDistanceOfLastBall(float distanceOfLastBall) {
-        this.distanceOfLastBall = distanceOfLastBall;
+    public void setDistanceOfLastProjectile(float distanceOfLastProjectile) {
+        this.distanceOfLastProjectile = distanceOfLastProjectile;
+    }
+
+    public void setTravelTimeOfLastProjectile(float travelTimeOfLastProjectile) {
+        this.travelTimeOfLastProjectile = travelTimeOfLastProjectile;
+    }
+
+    public void setyMaxOfLastProjectile(float yMaxOfLastProjectile) {
+        this.yMaxOfLastProjectile = yMaxOfLastProjectile;
     }
 }

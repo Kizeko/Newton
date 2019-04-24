@@ -8,15 +8,12 @@ import static fr.kizeko.newtonlaws.utils.Constants.START_POSITION_X;
 import static fr.kizeko.newtonlaws.utils.Constants.START_POSITION_Y;
 import static fr.kizeko.newtonlaws.utils.Functions.getShootAngle;
 
-/**
- *
- */
 public class Main extends PApplet {
 
-
+    /**
+     * Instance de cette classe
+     */
     private static Main instance;
-
-
     /**
      * Où tout est update
      */

@@ -38,7 +38,7 @@ public class World {
      * Constructeur de la classe World
      */
     public World() {
-        this.background = Main.getInstance().loadImage("C:/Users/Kizeko/Desktop/ISN/src/fr/kizeko/newtonlaws/assets/backgrounds/background.png");
+        this.background = Main.getInstance().loadImage("fr/kizeko/newtonlaws/assets/backgrounds/background.png");
         this.background.resize(Main.getInstance().width, Main.getInstance().height);
         projectiles = new ArrayList<>();
         this.ui = new UI();
@@ -90,8 +90,10 @@ public class World {
                 if (result != 2) {
                     //Si cela a touché le sol ou la zone, on desactive le projectile et on update certaines données
                     projectiles.get(i).disableProjectile();
-                    this.ui.setTravelTimeOfLastBall(projectiles.get(i).getT());
-                    this.ui.setDistanceOfLastBall(projectiles.get(i).getPosition().x);
+                    this.ui.setTravelTimeOfLastProjectile(projectiles.get(i).getT());
+                    this.ui.setDistanceOfLastProjectile(projectiles.get(i).getPosition().x);
+                    this.ui.setAngleOfLastProjectile(projectiles.get(i).getAngle());
+                    this.ui.setyMaxOfLastProjectile(projectiles.get(i).getYMax());
                     if (result == 0) {
                         //Le projectile a touché la zone, on génère une nouvelle zone
                         this.gameTask.changeZone();

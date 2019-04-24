@@ -25,13 +25,18 @@ public class Functions {
 
     /**
      * Equation de la trajectoire
-     * @param x Position(x)
-     * @param v0 Vitesse initiale
+     *
+     * @param x     Position(x)
+     * @param v0    Vitesse initiale
      * @param angle Angle
      * @return Position(y)
      */
     public static float y(float x, float v0, float angle) {
         return (float) (((g / (2 * pow(v0, 2) * pow(cos(angle), 2))) * pow(x, 2)) + tan(angle) * x);
+    }
+
+    public static float yMax(float v0, float angle) {
+        return (float) ((pow(v0, 2) * pow(sin(angle), 2)) / (2 * g));
     }
 
     /**
