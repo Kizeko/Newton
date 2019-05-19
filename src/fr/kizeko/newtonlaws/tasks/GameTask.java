@@ -28,12 +28,12 @@ public class GameTask extends TimerTask {
      */
     @Override
     public void run() {
-        //Si la zone est nulle --> qu'il n'y en a pas, on en ajoute une
+        //Si la zone est nulle --> (qu'il n'y en a pas), on en ajoute une
         if (World.getZone() == null) {
             count++;
-            this.world.instantiateNewZone(String.valueOf(count), getInstance().random(convertXToOrigin(FLOOR_MIN_POSITION_X),
-                    convertXToOrigin(FLOOR_MAX_POSITION_X)), convertYToOrigin(START_POSITION_Y), getInstance().random(ZONE_MIN_WIDTH,
-                    ZONE_MAX_WIDTH), getInstance().random(ZONE_MIN_HEIGHT, ZONE_MAX_HEIGHT));
+            this.world.instantiateNewZone(getInstance().random(convertXToOrigin(FLOOR_MIN_POSITION_X), convertXToOrigin(FLOOR_MAX_POSITION_X))
+                    , convertYToOrigin(START_POSITION_Y), getInstance().random(ZONE_MIN_WIDTH, ZONE_MAX_WIDTH),
+                    getInstance().random(ZONE_MIN_HEIGHT, ZONE_MAX_HEIGHT));
         }
     }
 

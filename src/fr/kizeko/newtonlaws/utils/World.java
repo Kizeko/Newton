@@ -48,23 +48,21 @@ public class World {
     }
 
     /**
-     * @param id Id
      * @param v0 Vitesse initiale
      * @param angle Angle
      */
-    public void addProjectile(String id, float v0, float angle) {
-        projectiles.add(new Projectile(id, v0, angle));
+    public void addProjectile(float v0, float angle) {
+        projectiles.add(new Projectile(v0, angle));
     }
 
     /**
-     * @param id Id
      * @param x Position(x)
      * @param y Position(y)
      * @param width Longueur
      * @param height Hauteur
      */
-    public void instantiateNewZone(String id, float x, float y, float width, float height) {
-        zone = new Zone(id, x, y, width, height);
+    public void instantiateNewZone(float x, float y, float width, float height) {
+        zone = new Zone(x, y, width, height);
     }
 
     /**

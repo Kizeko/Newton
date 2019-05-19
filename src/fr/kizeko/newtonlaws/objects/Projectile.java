@@ -1,6 +1,5 @@
 package fr.kizeko.newtonlaws.objects;
 
-import fr.kizeko.newtonlaws.animations.ProjectileAnimation;
 import fr.kizeko.newtonlaws.main.Main;
 import fr.kizeko.newtonlaws.objects.hitboxes.ProjectileHitBox;
 import fr.kizeko.newtonlaws.utils.Functions;
@@ -51,13 +50,11 @@ public class Projectile extends GameObject {
     /**
      * Constructeur de la classe Projectile
      *
-     * @param id    Id
      * @param v0    Vitesse initiale
      * @param angle Angle
      */
-    public Projectile(String id, float v0, float angle) {
-        super(id, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 10.0f, 10.0f, new ProjectileHitBox(0.0f, 0.0f, 10.0f, 10.0f, false),
-                new ProjectileAnimation());
+    public Projectile(float v0, float angle) {
+        super(0.0f, 0.0f, 10.0f, 10.0f, new ProjectileHitBox(0.0f, 0.0f, 10.0f, 10.0f, false));
         this.v0 = v0;
         this.t0 = Main.getInstance().millis();
         this.t = 0.0f;
@@ -92,13 +89,22 @@ public class Projectile extends GameObject {
         }
     }
 
+    @Override
+    protected void draw() {
+        Main.getInstance().fill(255, this.alpha);
+        Main.getInstance().stroke(0, this.alpha);
+        Main.getInstance().ellipse(this.position.x, this.position.y, this.width, this.height);
+        Main.getInstance().fill(255, 255);
+        Main.getInstance().stroke(0, 255);
+    }
+
     /**
      * Ajoute des Trail de différentes couleurs (5 par 5)
      */
     private void addTrails() {
         int lastDigit = trails.size() % 10;
-        if (lastDigit < 5) this.trails.add(new Trail(String.valueOf(trails.size() + 1), position.x, position.y, 55.0f, 66.0f, 250.0f, 255.0f));
-        else this.trails.add(new Trail(String.valueOf(trails.size() + 1), position.x, position.y, 235.0f, 47.0f, 6.0f, 255.0f));
+        if (lastDigit < 5) this.trails.add(new Trail(position.x, position.y, 55.0f, 66.0f, 250.0f, 255.0f));
+        else this.trails.add(new Trail(position.x, position.y, 235.0f, 47.0f, 6.0f, 255.0f));
     }
 
     private void updateTrails() {

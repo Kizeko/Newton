@@ -1,15 +1,10 @@
 package fr.kizeko.newtonlaws.objects;
 
-import fr.kizeko.newtonlaws.animations.Animation;
 import fr.kizeko.newtonlaws.objects.hitboxes.HitBox;
 import processing.core.PVector;
 
 public abstract class GameObject {
 
-    /**
-     * Id
-     */
-    protected String id;
     /**
      * Vecteur Position
      */
@@ -34,35 +29,22 @@ public abstract class GameObject {
      * HitBox du GameObject
      */
     protected HitBox hitbox;
-    /**
-     * Animation du GameObject
-     */
-    protected Animation animation;
 
     /**
      * Constructeur de la classe GameObject
-     * @param id Id
-     * @param x Position(x)
-     * @param y Position(y)
-     * @param vx Vitesse(x)
-     * @param vy Vitesse(y)
-     * @param ax Accélération(x)
-     * @param ay Accélération(y)
-     * @param width Longueur
-     * @param height Hauteur
-     * @param hitbox HitBox
-     * @param animation Animation
+     * @param x         Position(x)
+     * @param y         Position(y)
+     * @param width     Longueur
+     * @param height    Hauteur
+     * @param hitbox    HitBox
      */
-    protected GameObject(String id, float x, float y, float vx, float vy, float ax, float ay, float width, float height, HitBox hitbox,
-                         Animation animation) {
-        this.id = id;
+    protected GameObject(float x, float y, float width, float height, HitBox hitbox) {
         this.position = new PVector(x, y);
-        this.velocity = new PVector(vx, vy);
-        this.acceleration = new PVector(ax, ay);
+        this.velocity = new PVector(0.0f, 0.0f);
+        this.acceleration = new PVector(0.0f, 0.0f);
         this.width = width;
         this.height = height;
         this.hitbox = hitbox;
-        this.animation = animation;
     }
 
     /**
@@ -74,18 +56,13 @@ public abstract class GameObject {
         if (this.hitbox != null) this.hitbox.update(this.position);
     }
 
-    protected abstract void updateSpecs();
+    protected void updateSpecs(){}
 
     /**
      * Affiche sur la fenêtre
      */
-    protected void draw() {
-        this.animation.process(this);
-    }
+    protected abstract void draw();
 
-    public String getId() {
-        return id;
-    }
 
     public PVector getPosition() {
         return position;
@@ -111,11 +88,4 @@ public abstract class GameObject {
         return hitbox;
     }
 
-    public Animation getAnimation() {
-        return animation;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
 }

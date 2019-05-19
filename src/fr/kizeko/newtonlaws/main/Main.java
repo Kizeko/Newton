@@ -68,7 +68,7 @@ public class Main extends PApplet {
             if (v0 > 0.0f) v0 -= 1.0f;
         } else if (keyCode == ENTER) {
             //Un nouveau projectile est ajouté
-            this.world.addProjectile(String.valueOf(GameTask.getCount() - 1), v0, getShootAngle());
+            this.world.addProjectile(v0, getShootAngle());
         }
     }
 

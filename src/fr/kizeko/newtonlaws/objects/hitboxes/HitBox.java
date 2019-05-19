@@ -23,10 +23,11 @@ public abstract class HitBox {
 
     /**
      * Constructeur de la classe HitBox
-     * @param x Position(x)
-     * @param y Position(y)
-     * @param width Longueur
-     * @param height Hauteur
+     *
+     * @param x          Position(x)
+     * @param y          Position(y)
+     * @param width      Longueur
+     * @param height     Hauteur
      * @param displaying True si la HitBox est affichée
      */
     public HitBox(float x, float y, float width, float height, boolean displaying) {
@@ -38,11 +39,12 @@ public abstract class HitBox {
 
     /**
      * Update les positions de la HitBox
+     *
      * @param objectPosition Position du GameObject
      */
     public void update(PVector objectPosition) {
         this.updateSpecs(objectPosition);
-        this.showHitbox();
+        if (this.displaying) this.showHitBox();
     }
 
     protected void updateSpecs(PVector objectPosition) {
@@ -50,7 +52,7 @@ public abstract class HitBox {
         this.position.y = objectPosition.y;
     }
 
-    protected abstract void showHitbox();
+    protected abstract void showHitBox();
 
     public PVector getPosition() {
         return position;

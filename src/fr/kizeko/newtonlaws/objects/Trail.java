@@ -1,7 +1,5 @@
 package fr.kizeko.newtonlaws.objects;
 
-import fr.kizeko.newtonlaws.animations.Animation;
-import fr.kizeko.newtonlaws.animations.TrailAnimation;
 import fr.kizeko.newtonlaws.main.Main;
 import processing.core.PVector;
 
@@ -19,7 +17,7 @@ public class Trail extends GameObject {
 
     /**
      * Constructeur de la classe Trail héritant de GameObject
-     * @param id Id
+     *
      * @param x Position(x)
      * @param y Position(y)
      * @param r Red
@@ -27,8 +25,8 @@ public class Trail extends GameObject {
      * @param b Blue
      * @param a Alpha
      */
-    protected Trail(String id, float x, float y, float r, float g, float b, float a) {
-        super(id, x, y, 0.0f, 0.0f, 0.0f, 0.0f, 5.0f, 5.0f, null, new TrailAnimation());
+    protected Trail(float x, float y, float r, float g, float b, float a) {
+        super(x, y, 5.0f, 5.0f, null);
         this.time = Main.getInstance().millis();
         this.r = r;
         this.g = g;
@@ -37,7 +35,12 @@ public class Trail extends GameObject {
     }
 
     @Override
-    protected void updateSpecs() {
+    protected void draw() {
+        Main.getInstance().fill(this.r, this.g, this.b, this.a);
+        Main.getInstance().noStroke();
+        Main.getInstance().ellipse(this.position.x, this.position.y, this.width, this.height);
+        Main.getInstance().stroke(0, 255);
+        Main.getInstance().fill(255, 255);
     }
 
     public PVector getPosition() {
@@ -72,7 +75,4 @@ public class Trail extends GameObject {
         return time;
     }
 
-    public Animation getAnimation() {
-        return animation;
-    }
 }

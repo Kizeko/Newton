@@ -9,10 +9,11 @@ public class ProjectileHitBox extends HitBox {
 
     /**
      * Constructeur de la classe ProjectileHitBox
-     * @param x Position(x)
-     * @param y Position(y)
-     * @param width Longueur
-     * @param height Hauteur
+     *
+     * @param x          Position(x)
+     * @param y          Position(y)
+     * @param width      Longueur
+     * @param height     Hauteur
      * @param displaying True si la HitBox est affichée
      */
     public ProjectileHitBox(float x, float y, float width, float height, boolean displaying) {
@@ -23,12 +24,10 @@ public class ProjectileHitBox extends HitBox {
      * Affiche la HitBox
      */
     @Override
-    protected void showHitbox() {
-        if (this.displaying) {
-            Main.getInstance().fill(0, 255, 0, 50);
-            Main.getInstance().ellipse(this.position.x, this.position.y, this.width, this.height);
-            Main.getInstance().fill(255);
-        }
+    protected void showHitBox() {
+        Main.getInstance().fill(0, 255, 0, 50);
+        Main.getInstance().ellipse(this.position.x, this.position.y, this.width, this.height);
+        Main.getInstance().fill(255);
     }
 
     /**
